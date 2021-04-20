@@ -13,7 +13,8 @@ Criação de uma aplicação para testes de RabbitMQ
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#books-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-começando">Começando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#thought_balloon-começando">Inspiração</a>
+  <a href="#thought_balloon-inspiração">Inspiração</a>
+  <a href="#memo-licença">Licença</a>
 </p>
 
 ## :page_with_curl: Sobre
