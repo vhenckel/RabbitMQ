@@ -20,6 +20,7 @@ Criação de uma aplicação para testes de RabbitMQ
 Este repositório contém duas aplicações utilizando o RabbitMQ.
 
 O diretório "service1" contém uma aplicação para gravação de mensagens utilizando o protocolo AMQP. 
+
 Já o diretório "service2" contém uma pequena aplicação para consumir os registros da fila especificada.
 
 O objetivo principal desse projeto foi conhecer e aprender um pouco mais sobre o RabbitMQ e o protocolo AMQP de mensageria.
@@ -96,8 +97,10 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
     channel: "Queue_Name"
   } 
 
-  # O conteúdo do parâmetro "message" pode ser uma string ou objeto. Antes do envio, a classe de comunicação com o RabbitMQ vai tranformar o conteúdo em uma string e depois em Buffer.
-  # O parâmetro "channel" é o nome da fila mesmo que você deseja criar. É com este mesmo nome que os outros serviços vão consultar a fila.
+  # O conteúdo do parâmetro "message" pode ser uma string ou objeto. 
+  # Antes do envio, a classe de comunicação com o RabbitMQ vai tranformar o conteúdo em uma string e depois em Buffer.
+  # O parâmetro "channel" é o nome da fila mesmo que você deseja criar. 
+  # É com este mesmo nome que os outros serviços vão consultar a fila.
 ```
 
 ## :inbox_tray: Buscando mensagem 
