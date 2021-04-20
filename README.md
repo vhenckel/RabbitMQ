@@ -115,8 +115,8 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
   # O parâmetro "QUEUE_NAME" é o nome da fila onde as mensagens foram armazenadas.
 ```
 # :thought_balloon: Inspiração
-- Aplicação apenas para teste e estudo do protocolo AMQP e RabbitMQ.
+Aplicação apenas para teste e estudo do protocolo AMQP e RabbitMQ.
 
-Feito com :heart: & :brain: por Vitor Henckel :alien: 
+Feito com :heart:&nbsp; & :brain:&nbsp; por Vitor Henckel :alien: 
 
 [Get in touch!](https://github.com/vhenckel)
