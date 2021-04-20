@@ -98,7 +98,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
   } 
 
   # O conteúdo do parâmetro "message" pode ser uma string ou objeto. 
-  # Antes do envio, a classe de comunicação com o RabbitMQ vai tranformar o conteúdo em uma string e depois em Buffer.
+  # Antes do envio, a classe de comunicação com o RabbitMQ vai tranformar o conteúdo em uma string.
   # O parâmetro "channel" é o nome da fila mesmo que você deseja criar. 
   # É com este mesmo nome que os outros serviços vão consultar a fila.
 ```
