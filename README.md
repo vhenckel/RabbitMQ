@@ -17,7 +17,10 @@ Criação de uma aplicação para testes de RabbitMQ
 </p>
 
 ## :page_with_curl: Sobre
-Este repositório contém uma aplicação para gravação de mensagens no RabbitMQ (service1) e outra aplicação para consumir o conteúdo desta fila (service2).
+Este repositório contém duas aplicações utilizando o RabbitMQ.
+
+O diretório "service1" contém uma aplicação para gravação de mensagens utilizando o protocolo AMQP. 
+Já o diretório "service2" contém uma pequena aplicação para consumir os registros da fila especificada.
 
 O objetivo principal desse projeto foi conhecer e aprender um pouco mais sobre o RabbitMQ e o protocolo AMQP de mensageria.
 
